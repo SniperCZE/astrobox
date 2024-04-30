@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ba6954e4-9844-445e-a459-09f443db668f)
+
+  (paper "A4")
+
+  (title_block
+    (title "Astrobox")
+    (date "2024-04-13")
+    (rev "2")
+  )
+
+  (lib_symbols
+  )
+
+)
