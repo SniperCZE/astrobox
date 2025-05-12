@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "edaae9a9-df99-4a75-8209-1de5082c71b3")
 	(paper "A4")
+	(title_block
+		(title "Astrobox ")
+		(date "2024-05-01")
+		(rev "3")
+		(comment 1 "Napajeci modul")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -3066,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 114.935 63.373 90)
 			(effects
 				(font

@@ -5,9 +5,10 @@
 	(uuid "be2fda2f-48d5-4d7e-8dd3-3a14b8502c7d")
 	(paper "A4")
 	(title_block
-		(title "Astrobox")
-		(date "2024-04-13")
-		(rev "2")
+		(title "Astrobox ")
+		(date "2024-05-01")
+		(rev "3")
+		(comment 1 "Napajeci modul")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Socket"
