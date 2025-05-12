@@ -1,0 +1,9420 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "57d3fc5e-27cc-4c34-82c6-f09d8cb581da")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 38.1 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03877856-14fc-46ae-beb5-637d730ae16e")
+	)
+	(junction
+		(at 142.24 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0acb6977-1760-4eef-8f9b-8ee74fc76dc5")
+	)
+	(junction
+		(at 142.24 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cf57670-e35e-4874-90b1-106b60917d05")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eeadd59-6ad1-4367-874a-c0ba8fc12dab")
+	)
+	(junction
+		(at 142.24 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a62e41-07dd-4092-a4ea-5d607ef61d5a")
+	)
+	(junction
+		(at 38.1 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32aad7c6-9a07-4768-ab0c-88c303447b82")
+	)
+	(junction
+		(at 38.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "458b29ef-abd5-48a9-902d-6a50f74ef6d2")
+	)
+	(junction
+		(at 38.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "498eae34-9299-4ea8-b5b2-ba67de6f76f1")
+	)
+	(junction
+		(at 38.1 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49be84f6-3008-4dbd-be1e-858488b2a871")
+	)
+	(junction
+		(at 142.24 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f767f13-5331-4707-94d1-ce2677da426d")
+	)
+	(junction
+		(at 142.24 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d71069f-09d5-4613-a1a0-b18059d87477")
+	)
+	(junction
+		(at 142.24 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f2afcb-d5e4-413a-820c-cfd52700d979")
+	)
+	(junction
+		(at 142.24 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ed0ad69-f9f1-4a16-a63a-85664652ea42")
+	)
+	(junction
+		(at 38.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a06aa28d-893b-4c71-b6a1-00ac80dc5a1d")
+	)
+	(junction
+		(at 38.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9546d3c-17d3-47f3-9453-3eb6c40d8a56")
+	)
+	(junction
+		(at 142.24 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab51ee14-f63e-4d0b-b742-4d95c05b3eac")
+	)
+	(junction
+		(at 142.24 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3c01279-c833-438e-a823-446fa96e8148")
+	)
+	(junction
+		(at 38.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15951f5-7dea-4a2f-8324-748b9b7b8877")
+	)
+	(junction
+		(at 38.1 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd6c322c-8627-49f1-80c8-d9effbb44ad5")
+	)
+	(junction
+		(at 38.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef8b494d-6c31-467c-8a57-4591c40163da")
+	)
+	(no_connect
+		(at 116.332 111.506)
+		(uuid "d3eff650-3878-45f3-bbc7-3391a4cdf631")
+	)
+	(wire
+		(pts
+			(xy 99.06 144.78) (xy 101.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f9bc7d-2e46-4100-ba23-1f5ee39bfc4f")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.1) (xy 60.96 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03aee0cc-5bf6-43e3-a4cb-0d2a06c2933e")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e30a35-0151-48a5-b234-6d48d0ecfc45")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6f7ba8-4d3a-4ce5-975e-0daa3108f09c")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 50.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7335a8-8336-4fc2-84ad-52cd6d46ecba")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e734100-4d1d-42aa-9835-bd86afda9df4")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9274ff-e761-47f6-a709-f4c910ef325a")
+	)
+	(wire
+		(pts
+			(xy 109.22 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120c63e0-3f5f-4087-9f2c-4593c8d7c38d")
+	)
+	(wire
+		(pts
+			(xy 99.06 165.1) (xy 101.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1343dc40-2906-4d44-b5bb-5257fd18e1e8")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17db2410-4aea-452d-9877-6855e71f24d0")
+	)
+	(wire
+		(pts
+			(xy 38.1 144.78) (xy 38.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18738f3b-4699-4d9e-879e-6c58a9c67d21")
+	)
+	(wire
+		(pts
+			(xy 142.24 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a47399-81ce-4670-b8e8-63b719b095fe")
+	)
+	(wire
+		(pts
+			(xy 78.74 93.98) (xy 81.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbe8039-475e-45f2-96c7-45d3d1ec731c")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb2c181-faf5-447c-b117-c8cb385f1630")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f0afa5-b4df-4c0a-becf-8b1fdf6d4908")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240e2230-196b-4446-924f-5542a098ea95")
+	)
+	(wire
+		(pts
+			(xy 48.26 144.78) (xy 50.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295364b4-4ab2-49af-90ff-8eceb6833022")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 60.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ce41fd-be40-452f-94b9-f0e674d0bc48")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 40.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2bb461-388e-4d57-8347-1fcd75f53eaa")
+	)
+	(wire
+		(pts
+			(xy 142.24 154.94) (xy 139.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c81564d-14c4-4891-b066-d8d16d32f52c")
+	)
+	(wire
+		(pts
+			(xy 48.26 165.1) (xy 50.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0e30bc-290a-491c-b18a-a0040edd7aee")
+	)
+	(wire
+		(pts
+			(xy 109.22 114.3) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1c9d05-7006-49a4-bb9b-568041ecd5b7")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31271803-a348-4596-b19d-4b16017b00d2")
+	)
+	(wire
+		(pts
+			(xy 68.58 165.1) (xy 71.12 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335ad979-46b5-4ded-9397-bb3a1ecc91c1")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c21607-bba3-4539-b905-634fc7b285ed")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361823b5-8ef9-4ac4-9274-a2f8eff273af")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d80c23-940a-4a84-81cb-afbd169546b0")
+	)
+	(wire
+		(pts
+			(xy 38.1 58.42) (xy 38.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f6b520-8b07-45bd-bb21-22f77864849f")
+	)
+	(wire
+		(pts
+			(xy 142.24 167.64) (xy 142.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a35774b-78d4-43c1-b824-2f446b2b4442")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd546e0-333f-43be-a652-308ec8314f7d")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efcf1f1-6ec4-450a-bbd4-4f3b15f3fca4")
+	)
+	(wire
+		(pts
+			(xy 78.74 144.78) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9d641d-5cca-46a7-9a76-220a93d3e7f5")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4011b98c-7948-413c-b8c7-d0cde8af8dd2")
+	)
+	(wire
+		(pts
+			(xy 129.54 165.1) (xy 132.08 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ca32e6-079d-4149-a0a3-ff9b13cb76c6")
+	)
+	(wire
+		(pts
+			(xy 119.38 165.1) (xy 121.92 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41230805-349b-4c25-869d-dc52ae7eb71e")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4611c80f-8f94-479a-85ed-550390d81417")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4881c323-aef9-4f7d-8ece-493da2ae73f2")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8bd2b3-80fc-4848-94cb-86130bfbc30c")
+	)
+	(wire
+		(pts
+			(xy 119.38 154.94) (xy 121.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb293db-f61f-4340-b3e8-f0ef1d1ff3d5")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfd2bfc-1aae-4bda-a78e-d950613145e6")
+	)
+	(wire
+		(pts
+			(xy 129.54 144.78) (xy 132.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc3498c-10ac-40b1-a1b2-f40b1c4d1a9a")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509c7370-9de9-457e-9d88-816ab9e8219b")
+	)
+	(wire
+		(pts
+			(xy 109.22 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cb15d6-813d-4770-aa19-c1f60a4f2d8b")
+	)
+	(wire
+		(pts
+			(xy 78.74 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5240b541-18e4-4625-be33-4cc3f58a3af8")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f4961a-af85-4125-a5ec-e4039f5d8f01")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 38.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a338b70-f875-4751-9dd3-5f2603b8ddc9")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 40.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aedd854-86e7-4577-b2da-882324cc938e")
+	)
+	(wire
+		(pts
+			(xy 68.58 73.66) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b247880-d63b-44ac-ab94-17efd6f69b90")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c31b660-3ecb-4ed9-9a1e-b6540fec7f7e")
+	)
+	(wire
+		(pts
+			(xy 48.26 73.66) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5064a4-15e1-4881-8a09-6f35739df874")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d79a976-40fc-457e-9a4b-0e0bf5040dc5")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e55f87f-1fc9-483f-a0ed-864b14824ef9")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 38.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6047bd79-0cbe-4740-827a-f5ce16eba0fa")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 139.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a230d3-7779-49d1-88e4-f8454b7e8033")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631c4c87-2ab3-406f-a314-0b49651fa081")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cc76df-950c-4f1d-bc06-896e9b1a116e")
+	)
+	(wire
+		(pts
+			(xy 139.7 144.78) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b40ebf-2117-4c2a-803f-41ca0f32a77f")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691cc091-2b3d-4ca3-b466-9e68fc171435")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a290541-cc6a-4ab6-b33b-bfc4900d30d1")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7168912c-ca85-41a3-b269-b0c46df62a87")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71badee3-e0e7-426a-9941-a298d547f649")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7280a78a-b7d5-442e-9098-490a3d40a079")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7552858d-3a47-4120-9bd0-6b1fcaa84629")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770448c5-31cb-4a71-b55d-c21a3bcf171a")
+	)
+	(wire
+		(pts
+			(xy 99.06 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b46a4c2-ec0f-487b-8115-2045c4f43075")
+	)
+	(wire
+		(pts
+			(xy 78.74 134.62) (xy 81.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800271c8-2bd7-4000-8945-e23e7337afc4")
+	)
+	(wire
+		(pts
+			(xy 99.06 124.46) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816e9bd3-09af-4e54-afbc-b4f9a054f609")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83957f8e-caf2-4569-bd25-57aa3bd6f8f5")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844e4f44-86db-43e8-aaf4-7bea7266f018")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851f810e-a19d-435e-908f-6d26fe9cc1af")
+	)
+	(wire
+		(pts
+			(xy 88.9 165.1) (xy 91.44 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a0565b-bbfc-47e1-9e0a-9f2f0529c4ae")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8669fff8-8ee4-40e6-91e9-c6e47b495961")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a22383-1072-47df-a10f-88d674ec139b")
+	)
+	(wire
+		(pts
+			(xy 142.24 134.62) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f06ffe-cf74-4a5c-94d6-ac7b79c3b7fd")
+	)
+	(wire
+		(pts
+			(xy 88.9 154.94) (xy 91.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d55fc3-4616-4ec3-ad76-d6ee73079fa2")
+	)
+	(wire
+		(pts
+			(xy 48.26 154.94) (xy 50.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c136a5-6b6d-4ce8-8024-715ea67ec4c5")
+	)
+	(wire
+		(pts
+			(xy 78.74 154.94) (xy 81.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7e1891-dceb-40a4-a93c-8406ae1f58a2")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efc3c91-3386-4ada-960c-04949dbf0bac")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91272100-0273-4109-b2cc-6589d2e493c2")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ea0bfe-86bc-430b-90d1-789efc33631d")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 101.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943e9a15-3e01-4f40-b1ac-b57c8d6b38a6")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946da2b3-bfd3-4d1c-baf7-76dfb90e78bd")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bf6c21-88d9-431c-ad39-604948b9d0b7")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98311027-e438-4fd9-b6df-c725017be488")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bfbdfd-b84e-420b-a5bd-f3af6b0247b4")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9c9fdf-0e03-4ebd-b2e5-eedacae4ac41")
+	)
+	(wire
+		(pts
+			(xy 88.9 124.46) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b379d65-6f25-4ba4-885f-e98e78c5d0d4")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 38.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec14596-ab17-4b68-a8b8-8295606ee7ec")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f16faab-5f49-4c68-876f-a39a7e16e96f")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05b7b34-1c6c-4a0f-97f0-a6c05f810206")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 91.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07668f3-5bde-49f8-a845-57e84d3228d8")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 111.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2766be5-ad00-4744-ae55-ca38bc7f3536")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3841c26-dc77-4871-8cd2-6a018d37a0ba")
+	)
+	(wire
+		(pts
+			(xy 38.1 144.78) (xy 40.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b1ce9f-ce2a-413c-89bc-55657e3f8af3")
+	)
+	(wire
+		(pts
+			(xy 119.38 144.78) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6331d18-55d5-4222-a7b6-82984a53190d")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8eea8d6-4ece-4295-ae3d-a88c68ebc593")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2a362d-ab0f-44e3-a303-cb15396ae8c5")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 60.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afede166-16a9-4e8d-b3f7-420e52f12fcf")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ea498b-2cd0-4480-bb01-0fa25e7d8241")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72c2a13-7ad5-4a10-ae12-e8f09667da1a")
+	)
+	(wire
+		(pts
+			(xy 88.9 144.78) (xy 91.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba177b5d-82bc-4bdf-8173-1a451aedb78e")
+	)
+	(wire
+		(pts
+			(xy 38.1 154.94) (xy 40.64 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babd905c-e1fc-490c-b70b-965efad85651")
+	)
+	(wire
+		(pts
+			(xy 38.1 134.62) (xy 40.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd967304-2567-4f5a-897c-542b2cfa8b2f")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfde7c5a-f7e4-4806-a786-13f9513f3d97")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 142.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11a2b29-59f1-4ac4-8ba4-255c036f9881")
+	)
+	(wire
+		(pts
+			(xy 58.42 144.78) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b6aa2f-9c1e-400d-a706-51ce241c9d8b")
+	)
+	(wire
+		(pts
+			(xy 68.58 144.78) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33f7045-99c6-466f-b5b7-38dde7757e4f")
+	)
+	(wire
+		(pts
+			(xy 38.1 165.1) (xy 40.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c671f667-589f-44c7-9271-db5022974d6a")
+	)
+	(wire
+		(pts
+			(xy 109.22 165.1) (xy 111.76 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72c60f8-7fa6-4134-9fd7-46074e2948f5")
+	)
+	(wire
+		(pts
+			(xy 48.26 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77c10bc-44c2-4833-90ef-8d40081b162a")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d58c88-33d6-429e-aa36-6fb535b0ab20")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9214ad1-dc0d-4ebe-9fd8-3f37d1c3f6f5")
+	)
+	(wire
+		(pts
+			(xy 68.58 114.3) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb39cd7d-46b9-41e0-8ad5-806d6faa6934")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 101.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd86d2a-d59e-4934-bfdd-d942c389cd34")
+	)
+	(wire
+		(pts
+			(xy 142.24 144.78) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d207791b-c234-42ac-ae97-90c5a83b2c39")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5071384-54a4-4dd2-a038-5fdc8dec4db1")
+	)
+	(wire
+		(pts
+			(xy 58.42 114.3) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72cb872-b447-48f5-9b2c-6cb5e9d1e95e")
+	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d827a241-42c4-4f92-9b7f-f4ada53dcb0a")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b6191c-8ef9-44a7-bb21-31432833ec6d")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db85b985-792e-4781-a9e0-fd1e9f944359")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfd32a5-0d36-4eb3-a125-3b7ca8dee428")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2ebdf9-5115-4005-935d-2f433bd6ccc6")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea41fbc-99be-4a5e-8fd0-58aa2c32843d")
+	)
+	(wire
+		(pts
+			(xy 38.1 154.94) (xy 38.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df31a6c5-38ae-499d-a1c1-4a59d0ed0fd6")
+	)
+	(wire
+		(pts
+			(xy 78.74 165.1) (xy 81.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fa2f0b-ead2-4405-9d5e-cfa23c0c3897")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47d22bb-619b-4d0d-99cf-3c464bd6dd3b")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e507da6d-2763-45da-bdbd-c02fa9fd3774")
+	)
+	(wire
+		(pts
+			(xy 38.1 134.62) (xy 38.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57b8242-d20a-419b-a854-d888a76f29ea")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fa51e5-e13a-4587-9b83-028af4f54143")
+	)
+	(wire
+		(pts
+			(xy 48.26 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86dbe2f-0680-4f75-92db-da208ceff76d")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fd1d25-36ad-4724-ba69-fea424c9ecdb")
+	)
+	(wire
+		(pts
+			(xy 68.58 154.94) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb746c9a-4f2b-43d4-a2cf-f2609bd7a4b1")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec858eba-3f57-4e54-b785-d45be132f61c")
+	)
+	(wire
+		(pts
+			(xy 142.24 154.94) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5eb91d-deb4-4e45-9da1-7c325124f0bd")
+	)
+	(wire
+		(pts
+			(xy 129.54 154.94) (xy 132.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee061008-360c-4488-99ea-51d8e34c212d")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 40.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f167f961-7fc7-4f9d-b4f8-a49ceb79b311")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f1a174-71d1-4bab-9810-46266dc55215")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f517451f-dcc4-4cdb-8af2-13b5f79744d2")
+	)
+	(wire
+		(pts
+			(xy 48.26 134.62) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ab5040-abc5-4602-aee0-d106e8529c30")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f997bccf-69ff-40a7-97e8-997899ec0274")
+	)
+	(wire
+		(pts
+			(xy 58.42 134.62) (xy 60.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7e3dae-3c1f-48e9-ba87-145c5b91f015")
+	)
+	(wire
+		(pts
+			(xy 119.38 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc80a5a6-b60d-4781-9622-25449db9423f")
+	)
+	(wire
+		(pts
+			(xy 48.26 124.46) (xy 50.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2b86fa-a189-4814-8cdb-8fec8ed137b8")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004da492-ad28-4b3c-8ecc-448b440c360e")
+		(property "Reference" "R62"
+			(at 54.61 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac976526-fceb-42d0-802b-93bd982a097f")
+		)
+		(pin "1"
+			(uuid "0c8376f7-bf85-4974-ab95-c80ab8c3ae99")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a17dc5-318f-4499-a2a5-82b1d75aa70a")
+		(property "Reference" "R25"
+			(at 85.09 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05201908-d839-4224-a1fa-89fa9c43c06c")
+		)
+		(pin "1"
+			(uuid "6710c404-1a5f-41f1-b8c4-9fedaf230320")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 142.24 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "054fe60c-db88-4329-939c-8d05f0255993")
+		(property "Reference" "J2"
+			(at 144.272 171.5078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.272 173.9321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "243a87e6-5f04-4152-a525-4ce54d5650ad")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8b9f59-c526-4adc-9f3c-80a186e3ec82")
+		(property "Reference" "R108"
+			(at 115.57 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20a66edd-c289-4e9d-8b71-ee1c44bea358")
+		)
+		(pin "1"
+			(uuid "de69544b-32b0-48b6-b75a-529f90db90db")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11356910-4fb7-44f6-ba80-1ec32665e259")
+		(property "Reference" "R43"
+			(at 64.77 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a90a1a5-93c1-4d93-bede-9fbf3a3c833b")
+		)
+		(pin "1"
+			(uuid "0b5b69a1-f5ae-48cb-ae88-869fb7af2747")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "119b4ae3-1f7c-4c30-826f-241436dad543")
+		(property "Reference" "R3"
+			(at 64.77 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e310d448-c070-4e2c-ae81-097d8e55ee8c")
+		)
+		(pin "1"
+			(uuid "bb8635e5-45c1-4595-a440-12ef18c5a7a6")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126897e9-a287-453e-b23d-3b30e106ba37")
+		(property "Reference" "R54"
+			(at 74.93 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d919b55b-2ef9-4278-9a6a-080435b5a8b1")
+		)
+		(pin "1"
+			(uuid "6ad8756f-9a00-4141-88cf-9019375b86a1")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15dbb0f9-4757-4782-962e-3c22669b75c1")
+		(property "Reference" "R9"
+			(at 125.73 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "167a81b0-2f40-4c69-95f2-0d1aee67acf1")
+		)
+		(pin "1"
+			(uuid "2292581e-f31d-42b2-ac7d-4bc846bc4bcb")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1af2acdb-1e46-4fca-9c35-c578f3920d9f")
+		(property "Reference" "R95"
+			(at 85.09 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d3e83f9-bd98-466e-b105-7f5f6f2c98a7")
+		)
+		(pin "1"
+			(uuid "fd67d78f-6541-4af2-a7da-3d6de593dba6")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7bc179-0d3f-4098-911d-400c205d6cf5")
+		(property "Reference" "R65"
+			(at 85.09 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdeeea39-d120-4121-b46a-f0f1a96b951a")
+		)
+		(pin "1"
+			(uuid "9685c89f-31c9-4902-8513-51512727a67c")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c14d642-a851-4025-b1ea-d8766e21a85d")
+		(property "Reference" "R104"
+			(at 74.93 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1b4d302-23f5-4822-bee8-404bf691451d")
+		)
+		(pin "1"
+			(uuid "6aa938df-1d36-49eb-a2ea-9dc1737ddafc")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cb96735-a61f-4a59-b57c-00b82c81b496")
+		(property "Reference" "R10"
+			(at 135.89 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ff37075-182b-4fed-9a6a-87ed47bed655")
+		)
+		(pin "1"
+			(uuid "6ef60d9b-4fbc-4a71-9954-e8d9845573e7")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200996a5-5115-43c1-8f31-44ba5e542ae0")
+		(property "Reference" "R37"
+			(at 105.41 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0cfeedf-2abf-4cd5-aea2-6a0743b165c9")
+		)
+		(pin "1"
+			(uuid "5493a0a0-3738-4795-981b-4c6cc8e2fc05")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 38.1 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "209dac87-fbee-4b4b-b73e-14cc658cada4")
+		(property "Reference" "J1"
+			(at 40.132 52.1278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+12V"
+			(at 40.132 54.5521 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "275cb577-7f6f-499b-837b-ea265a76c698")
+		)
+		(instances
+			(project ""
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2278ccdd-256f-499c-9676-bac047aaca95")
+		(property "Reference" "R49"
+			(at 125.73 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65f4c2fc-1e55-412a-90eb-9ed4a6bc56c5")
+		)
+		(pin "1"
+			(uuid "a4b4662a-89bb-46d5-93dd-39c1962080eb")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c20a2a-f16d-45d0-be3a-e5033bd71db2")
+		(property "Reference" "R15"
+			(at 85.09 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a001150-683e-4f9b-9f5c-c510ae427b09")
+		)
+		(pin "1"
+			(uuid "5d9d9454-c55f-4cf3-963a-c4e672347f36")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "244ac2c2-9dbd-4853-b595-94e61023304c")
+		(property "Reference" "R55"
+			(at 85.09 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47fc027a-4ce9-4a77-a927-9044fb469a0b")
+		)
+		(pin "1"
+			(uuid "d90b7420-e2db-4741-8807-590fd85bfe1e")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c49321-3408-4544-9de7-fdde847d267a")
+		(property "Reference" "R58"
+			(at 115.57 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7931745d-3439-49b9-b6c6-60ae63d80a6d")
+		)
+		(pin "1"
+			(uuid "883a6cae-61ff-49af-af7e-2af2277bbb89")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25034099-5a62-46d1-95b9-f7f65ae0e0a1")
+		(property "Reference" "R76"
+			(at 95.25 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f062a8a7-98f3-433d-97fa-5b04c3321552")
+		)
+		(pin "1"
+			(uuid "a10c86b4-eb5c-44f7-a259-5fe2e0d916f8")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d777f5-0217-43bb-b3ee-029472b21e31")
+		(property "Reference" "R45"
+			(at 85.09 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a006c5a-f50c-4889-b6c3-3d0cc19460bb")
+		)
+		(pin "1"
+			(uuid "07643885-02a6-4e03-8490-d31dbebb9848")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26421a5c-4a90-42bc-a02e-bcc27f979452")
+		(property "Reference" "R70"
+			(at 135.89 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1bc87b12-e04a-43bc-8b18-09f147f0db28")
+		)
+		(pin "1"
+			(uuid "99f79411-33c8-41d8-ab38-70f524265733")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "264c4f04-7603-422e-b615-ea70325047a3")
+		(property "Reference" "R32"
+			(at 54.61 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1427b69-488e-465f-9401-3d9822ec2bb9")
+		)
+		(pin "1"
+			(uuid "24ec106b-f370-4f96-8489-eafca84a4ef3")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2766e393-95b4-4465-9bd0-ce661ca8a661")
+		(property "Reference" "R27"
+			(at 105.41 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "988ea86c-3313-44d9-986e-9c6a63e06ed5")
+		)
+		(pin "1"
+			(uuid "77c2fd42-5ec6-48c3-9c54-9323e8574309")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d279b9-180c-4ed7-a9ad-1639d81fde0e")
+		(property "Reference" "R72"
+			(at 54.61 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c1d5ff9-8c73-4be8-987a-dbd12114a4f8")
+		)
+		(pin "1"
+			(uuid "d139210f-9609-44c5-bf5d-3e845fadc640")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "293c4403-80bf-4425-9356-8805ccc13557")
+		(property "Reference" "R63"
+			(at 64.77 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19553216-f679-4fe5-b3a6-1776755b5077")
+		)
+		(pin "1"
+			(uuid "01aaa7db-cf07-482a-bfdd-5472d83793a3")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da8c2f1-67a2-44c0-8cc6-7913b4c3a487")
+		(property "Reference" "R26"
+			(at 95.25 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e8f599e-8a62-40eb-aa32-0ee3d76ddad9")
+		)
+		(pin "1"
+			(uuid "892ffe8f-9c07-4bf4-b0e4-2c6afde0ff25")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4bbb8c-4748-44d5-b48e-f8c763e3e586")
+		(property "Reference" "R38"
+			(at 115.57 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35ec1d58-8e11-44d8-bed6-27c2d2975a1c")
+		)
+		(pin "1"
+			(uuid "7763f45c-c98a-4141-ab12-60d343da9bbb")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300b04fc-20a5-4257-9da4-b7fc3577a237")
+		(property "Reference" "R92"
+			(at 54.61 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "833ae1d4-56ce-41ad-8fee-ff75f90b804f")
+		)
+		(pin "1"
+			(uuid "50862355-7de6-4a7e-8952-370cbf44750a")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32cb93ba-ce64-4a14-9737-0ea00ac2041c")
+		(property "Reference" "R36"
+			(at 95.25 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "516e7bbe-da7f-4f51-afb0-65d002b3231b")
+		)
+		(pin "1"
+			(uuid "f393de58-3f2b-487a-a344-9ac4b4306298")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "368939e1-5241-4563-9a1d-1ebc2bda223e")
+		(property "Reference" "R31"
+			(at 44.45 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a9f74e3-865e-46da-9658-0e7ba50d2114")
+		)
+		(pin "1"
+			(uuid "1a3cc0b4-8809-4f08-8c46-5e0ecc35502d")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38dcc945-6aaa-4cec-b4ed-44209765c0ce")
+		(property "Reference" "R2"
+			(at 54.61 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60b2f9e7-441c-4de5-97b3-9015ffb9bc4f")
+		)
+		(pin "1"
+			(uuid "2ae01db3-6c8c-431f-ba56-609587fd30e1")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dfa784a-81ad-46db-8524-9018bfa61e4b")
+		(property "Reference" "R17"
+			(at 105.41 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98173820-fa44-4591-8875-80d8e2e5bea8")
+		)
+		(pin "1"
+			(uuid "da2fdaa8-2279-4e30-b116-42e5f8199a26")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46281221-4c62-4114-bc5e-b2a4ba7eb293")
+		(property "Reference" "R78"
+			(at 115.57 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74291581-786b-4d56-bd9a-80bcfb6030ab")
+		)
+		(pin "1"
+			(uuid "c5cc9e65-5e51-42f8-953b-1044fd1205ec")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da703d7-049b-446b-b262-a8d77346ac0a")
+		(property "Reference" "R35"
+			(at 85.09 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "245f7ee5-8a45-4a01-b92e-45aa5e6f1def")
+		)
+		(pin "1"
+			(uuid "dbf124b0-2bd1-4b7c-bcb3-fea750dd1a27")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e488313-de9a-4412-8988-5885a3f85a05")
+		(property "Reference" "R97"
+			(at 105.41 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7352ea30-0e64-42a9-9d1c-e4a3148c57ff")
+		)
+		(pin "1"
+			(uuid "4ff230b5-baaa-43cf-a75d-83a1f8a832b1")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f7fa5ca-50fe-4ab9-b92d-158f0cb8870e")
+		(property "Reference" "R110"
+			(at 135.89 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "324fcc2f-6a68-4780-b42f-0ecdad0316d7")
+		)
+		(pin "1"
+			(uuid "531ba1f2-ce74-4853-93c3-a753f1d3b29a")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fcb2d61-9c3c-4664-b98d-620847185893")
+		(property "Reference" "R40"
+			(at 135.89 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebe507fb-9f31-48be-9588-b7cb1e1e52f5")
+		)
+		(pin "1"
+			(uuid "43481c4f-936c-419e-83ed-92abe08b9fd3")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51d37299-1890-421a-830f-1f8d37a71527")
+		(property "Reference" "R60"
+			(at 135.89 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4001a949-baf7-439a-a62a-a46dcfd34f96")
+		)
+		(pin "1"
+			(uuid "ba5c162f-6123-45f3-9718-fcc1dae52512")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c8b9db-2765-4fe6-a9ef-839ac8cff2d8")
+		(property "Reference" "R103"
+			(at 64.77 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17a2394d-fcde-42fc-9a1d-50ace15d1264")
+		)
+		(pin "1"
+			(uuid "566fc7dd-801a-408b-acc0-8c85d9d7d7c7")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55cd4a05-0c92-493a-bb74-a41b8ff3a9ad")
+		(property "Reference" "R24"
+			(at 74.93 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d51869c2-a3bf-4dac-892d-3e58acbe785a")
+		)
+		(pin "1"
+			(uuid "23b56f10-61c0-4fe7-a1f7-0c1ef8a30856")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56c4497f-f846-4eb2-8ab8-0b79fe62d753")
+		(property "Reference" "R30"
+			(at 135.89 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ad8e24a-72a7-4884-a5e9-4777564474af")
+		)
+		(pin "1"
+			(uuid "386c4e83-947a-4311-be3d-9b3d1abf50ac")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "590b02e8-f526-46e3-995b-2d04fcd4ad8b")
+		(property "Reference" "R85"
+			(at 85.09 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56842f3e-7c66-4410-8b1b-4102daec538e")
+		)
+		(pin "1"
+			(uuid "a748e2cb-d62a-432b-b7da-6a74bfd0c183")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "599d9ee8-cb6c-4cf7-88d6-a7927f21674a")
+		(property "Reference" "R98"
+			(at 115.57 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d80d10a-d6d6-444c-a466-d1cc41384845")
+		)
+		(pin "1"
+			(uuid "0d5e884b-bee5-4593-89e0-f1c8c15b7371")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59e3c2c7-d97c-4bce-9827-eedab804504b")
+		(property "Reference" "R81"
+			(at 44.45 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5eac7f9e-2968-4b6f-ac5c-58a59c9dd30b")
+		)
+		(pin "1"
+			(uuid "7c7dfa1e-21f2-485e-a61a-7155b508cd34")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59ea1dc0-9317-4b0b-a30d-086a3e1b73a2")
+		(property "Reference" "R57"
+			(at 105.41 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d399bb78-14e9-4284-877c-83f40986f970")
+		)
+		(pin "1"
+			(uuid "19569cb4-39d6-4ded-bddf-6316a291de52")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a349d0a-4862-4181-8cac-20222e703b6b")
+		(property "Reference" "R61"
+			(at 44.45 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b1d67d0-beae-410b-b615-7eaa3cd67b20")
+		)
+		(pin "1"
+			(uuid "365af6a6-6d6a-41b4-b783-a98b8867ccaf")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a491390-a5ff-4a16-b3bb-9040401fd8b2")
+		(property "Reference" "R42"
+			(at 54.61 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54dc8ad1-a78f-4287-ab91-63709107bea5")
+		)
+		(pin "1"
+			(uuid "82676501-5de3-45ea-a527-8952a74f4851")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b22f3c4-007c-4d33-b2bc-fe2f6302aaf8")
+		(property "Reference" "R87"
+			(at 105.41 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e41c418b-2413-4d13-9157-8518deb7db7f")
+		)
+		(pin "1"
+			(uuid "cd8fac3b-ef33-472a-a171-6b82f19a183d")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4c2814-0a78-4fc8-babd-1b7c1ce24a73")
+		(property "Reference" "R64"
+			(at 74.93 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1d93054-59dd-4d68-af14-2a8c06ec858a")
+		)
+		(pin "1"
+			(uuid "7379d6eb-cd5f-4faf-82c7-db0574da793d")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc86207-37a6-41c9-8083-b30900d6b811")
+		(property "Reference" "R50"
+			(at 135.89 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19c3cef1-c81a-400e-9c42-7cb9e89f0786")
+		)
+		(pin "1"
+			(uuid "742a2e09-1e55-4091-b788-d1ba2294f5d4")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e01ac76-8319-4bf0-995c-caa42950543c")
+		(property "Reference" "R47"
+			(at 105.41 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc611a98-0545-4245-a0c8-952eb143a9e5")
+		)
+		(pin "1"
+			(uuid "36cad6bc-c5a0-4196-ab04-411286eb903f")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611463ee-057a-4f8d-9e7e-b233b82e28a4")
+		(property "Reference" "R106"
+			(at 95.25 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce6af7c8-2b1d-424e-85e8-f4f6a4181d81")
+		)
+		(pin "1"
+			(uuid "2b00fdb0-372a-4dcc-9f67-d44bd9ca018e")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ecf134-659f-47ec-b82b-5dde4442e6ee")
+		(property "Reference" "R16"
+			(at 95.25 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "102fad24-93fd-40c8-9b6b-f2dc36af5e5d")
+		)
+		(pin "1"
+			(uuid "eac9908e-85ec-4d23-9a8a-dd3e66b3efd6")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "645e0ffc-3a92-4436-b220-02db8efe6adc")
+		(property "Reference" "R90"
+			(at 135.89 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c1c42cf-5fbe-441f-a55d-6ab88b43d15f")
+		)
+		(pin "1"
+			(uuid "f774f688-cdfd-4087-9dff-484b0a12192d")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "665f290b-0fe8-40b8-a139-d0a3bce29eba")
+		(property "Reference" "R19"
+			(at 125.73 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9109893e-420e-4109-a49e-68556b8328d8")
+		)
+		(pin "1"
+			(uuid "c2df3126-3056-447b-9e07-75a892e58ea1")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67df01e1-d836-4877-bb8d-1b30eb9dad72")
+		(property "Reference" "R93"
+			(at 64.77 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60fbc969-1d5a-42ba-8356-816ff66391ea")
+		)
+		(pin "1"
+			(uuid "1222b50f-e7ac-46cf-ba3e-2c471158db9f")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684c4975-998e-4a9d-9f48-372fb0f493be")
+		(property "Reference" "R66"
+			(at 95.25 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2513c000-57b4-4ec9-9298-b8cd39efccb8")
+		)
+		(pin "1"
+			(uuid "57ff99a3-6881-4054-8469-98e6c0b2b91d")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc1b72f-b541-425f-90a1-0f2096035185")
+		(property "Reference" "R82"
+			(at 54.61 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ad7864e-9a2f-4846-9e02-72463ab93b37")
+		)
+		(pin "1"
+			(uuid "73747de4-760e-4bff-a736-5571acf7a529")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d16ee83-4e1f-437e-a2d7-ff89a7cb76f6")
+		(property "Reference" "R56"
+			(at 95.25 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd4b5d0a-d2dd-4ffe-b080-1efcc9b190bd")
+		)
+		(pin "1"
+			(uuid "92fd3775-4e04-4721-afbc-c2cadfa92ded")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe557da-d32f-42b1-8a97-6cc284ef9ea6")
+		(property "Reference" "R75"
+			(at 85.09 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f2db7dc-7e22-4caf-aad2-2e817850e995")
+		)
+		(pin "1"
+			(uuid "d6322ad9-e952-47be-a41b-4e40758a209e")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7034e028-16bf-42b5-9d2e-0ee67efb08d5")
+		(property "Reference" "R109"
+			(at 125.73 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51087ca4-1784-4d6a-87a7-ad52edb16819")
+		)
+		(pin "1"
+			(uuid "3a96f31e-89dc-4b0d-b3e2-c7779b7eaa93")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7060b35f-252d-46eb-98ab-f4fe86b96954")
+		(property "Reference" "R79"
+			(at 125.73 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f36462e-6508-422e-81db-8822243524af")
+		)
+		(pin "1"
+			(uuid "a07eb30b-fb80-4590-a6dc-820b72470d85")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c2b2b4-3c22-4a25-b010-c5e0739b2e21")
+		(property "Reference" "R101"
+			(at 44.45 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de8ab6f0-9f4f-470b-99ee-c2d617c3421f")
+		)
+		(pin "1"
+			(uuid "264b6e57-f29f-4d42-b0ea-905361399f32")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75fd4d14-e721-455e-8014-fd830bd5b8be")
+		(property "Reference" "R13"
+			(at 64.77 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1223a66-7af4-49e9-bb7a-c1bb4be5bfa4")
+		)
+		(pin "1"
+			(uuid "dc08fd53-f259-4586-8261-7dea0ff387f1")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c7d84e-441e-4a68-ac5d-c02b74210326")
+		(property "Reference" "R91"
+			(at 44.45 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "521e8f6b-dcc4-4498-be8d-af39cbd51d11")
+		)
+		(pin "1"
+			(uuid "3903c1d6-cfd0-45c2-8679-14a332ce32bb")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78363106-0f24-4e16-a825-d79c144a6662")
+		(property "Reference" "R53"
+			(at 64.77 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51f90a9a-1f56-4b0a-ad19-c00f46a2de17")
+		)
+		(pin "1"
+			(uuid "7e4a0c64-07f2-4f50-99df-cf4ef154609a")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79b09ea1-b80d-47f1-aecf-0c60a7830e55")
+		(property "Reference" "R88"
+			(at 115.57 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae6ec97b-a24a-43d8-a0db-f1afa67abbf7")
+		)
+		(pin "1"
+			(uuid "40fb3aba-cb9c-4350-9e23-09d32283b1df")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bbaf8ba-9df7-43bc-9981-debd5d6227b1")
+		(property "Reference" "R21"
+			(at 44.45 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5800371-2b09-400c-9f26-02f2f58e736e")
+		)
+		(pin "1"
+			(uuid "8a1e8dd4-f069-451f-92d1-37636ebc9950")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f39dfc1-8f9a-465a-ac76-d9d13a12b06d")
+		(property "Reference" "R6"
+			(at 95.25 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d6d8859-08cc-4ac8-b94b-5e63ed1f8fd8")
+		)
+		(pin "1"
+			(uuid "9be76a69-f7f6-4bde-9849-a21521d7d902")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ab1d34-2028-4ba7-97f8-e1fbf39b2f92")
+		(property "Reference" "R39"
+			(at 125.73 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ce3dc4d-356b-4439-ad22-f4350eeebef3")
+		)
+		(pin "1"
+			(uuid "5e1db740-fe7e-4b54-86df-5f7842478357")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81eae9e3-4db8-4ad9-adde-ae1046a52696")
+		(property "Reference" "R74"
+			(at 74.93 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2726198c-cd1f-49fd-a609-96fcc5ecd794")
+		)
+		(pin "1"
+			(uuid "acd4666e-b49c-4eaa-8870-f354c5b95226")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f4c7fa-208f-425d-8b2b-1537ffa2a4a5")
+		(property "Reference" "R52"
+			(at 54.61 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e36adbf7-871d-4f70-9208-33769519b9fe")
+		)
+		(pin "1"
+			(uuid "088b66dc-916f-46dc-ae8d-11a5f5418068")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f21196-7983-45b7-8993-32d6dc7b53dc")
+		(property "Reference" "R51"
+			(at 44.45 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb1af7a1-3215-4f32-b2c4-3a2b461075c3")
+		)
+		(pin "1"
+			(uuid "4992eacd-16fa-4239-9844-4cf8f986309c")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88af57f9-e853-4e72-b15a-258a5545f82b")
+		(property "Reference" "R73"
+			(at 64.77 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72fe2251-9cf1-493c-8437-13fdd33c8243")
+		)
+		(pin "1"
+			(uuid "08a7c0c0-dc67-4094-8357-77189ab45c47")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c009898-227c-49d7-bf3d-9a38ade67086")
+		(property "Reference" "R34"
+			(at 74.93 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50a140d3-2300-49c0-8d01-32bfacdc59f4")
+		)
+		(pin "1"
+			(uuid "ae639b21-1b15-4eca-8822-92a524960d38")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c63860a-e635-4622-b694-0c698d9af109")
+		(property "Reference" "R12"
+			(at 54.61 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7921cc7-6280-4b0d-a57f-07a4326d91b4")
+		)
+		(pin "1"
+			(uuid "0f02f7f5-3072-4987-a212-39c0629059b1")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95d74166-d19c-455b-a780-cf8c1e1f4df1")
+		(property "Reference" "R102"
+			(at 54.61 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "877be50a-4d3c-4ac0-8bbf-853e70707329")
+		)
+		(pin "1"
+			(uuid "74879588-82c2-4d02-96bc-4b89bcde84e9")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d004540-d924-4107-95eb-afc61b955494")
+		(property "Reference" "R84"
+			(at 74.93 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c9aaaa0-f1a4-4912-84ab-205b3093f0af")
+		)
+		(pin "1"
+			(uuid "fdf62c38-f2a6-469f-ae7f-b59e217316a0")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b7fdc9-60de-4a4f-895c-311ffd3365fa")
+		(property "Reference" "R71"
+			(at 44.45 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc046940-1b63-4db6-9046-a22b930e0056")
+		)
+		(pin "1"
+			(uuid "660d9e50-628b-4475-b40c-1285a54d3d3e")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1c8ee3a-f2be-450c-bf01-dfe102db5897")
+		(property "Reference" "R77"
+			(at 105.41 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e354b4f-370d-4e46-b49d-cbfa6cd518c0")
+		)
+		(pin "1"
+			(uuid "017f7489-cc1e-4cb4-95fc-9100fdc76c88")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a309ee3d-42c5-4f84-8fcf-d34d5dc02cc4")
+		(property "Reference" "R29"
+			(at 125.73 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f7194a1-8cc0-4e8b-b2bb-6bd5bbafcba2")
+		)
+		(pin "1"
+			(uuid "9bb405ca-6265-4ac8-b56b-3f47ecd25105")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a86d3489-8bc8-4521-bb40-a8e63529d990")
+		(property "Reference" "R89"
+			(at 125.73 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45609f05-fd23-47a8-90ae-e615ac8136e9")
+		)
+		(pin "1"
+			(uuid "c1d8fd94-fb80-42c7-aa3d-3b00cd700b92")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac82f9dc-5139-4916-ac14-9d133079f001")
+		(property "Reference" "R59"
+			(at 125.73 109.1395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 111.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec522451-cd2f-47f7-98b6-2a3b4d553254")
+		)
+		(pin "1"
+			(uuid "5c5513ae-ece5-4ab3-8cea-bf8a3a8da288")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc93bff-d3a9-4fc3-bf2a-4f8715254b32")
+		(property "Reference" "R28"
+			(at 115.57 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17247771-7522-47b9-bc1a-766e59ea0419")
+		)
+		(pin "1"
+			(uuid "a16b576a-4e84-418b-954c-2e17c1231ca4")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae047b04-02f9-4383-b8e3-76532f3a52d6")
+		(property "Reference" "R20"
+			(at 135.89 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddd2d254-06eb-4f44-836e-88140a9195b2")
+		)
+		(pin "1"
+			(uuid "23412f66-e018-4658-9357-d9e4127b657c")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b11d5b75-8613-4fe8-a636-8c27d114f2d5")
+		(property "Reference" "R68"
+			(at 115.57 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8567185-8da6-4f0b-a23f-904bd7b2a05d")
+		)
+		(pin "1"
+			(uuid "47cfdb0a-c4f6-4905-8bfc-ada2da590a37")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1fff39a-3ccb-4f6c-aa94-12ee777ea0c6")
+		(property "Reference" "R48"
+			(at 115.57 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c404e0e3-f3e6-4b24-b7b5-0cb588e68843")
+		)
+		(pin "1"
+			(uuid "883c50ae-73b6-4fb2-9376-fa194652e1bb")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6d598fe-709b-4464-b964-85ce987d7f1a")
+		(property "Reference" "R44"
+			(at 74.93 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59fd70c5-d155-4db3-9fc8-3f62d140c51a")
+		)
+		(pin "1"
+			(uuid "ab732ccb-2904-4f84-bf08-706d58e07bcd")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7463207-fc8c-45ec-874c-ba6994b6ddd6")
+		(property "Reference" "R23"
+			(at 64.77 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c94686a2-3bb8-4066-8672-dd2691d7db7f")
+		)
+		(pin "1"
+			(uuid "3f284551-3b50-4344-8704-698e023e63a9")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c7d294-0447-4e95-93cb-69f984de85e1")
+		(property "Reference" "R22"
+			(at 54.61 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b03899ca-fcc2-4aaa-add9-9b497a0174f0")
+		)
+		(pin "1"
+			(uuid "2384540c-4c26-44b1-8158-5970fd3b2f0c")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1ebf31-3148-42ee-8dfb-58522094d22b")
+		(property "Reference" "R5"
+			(at 85.09 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a671183-c760-4051-a023-ea480290646c")
+		)
+		(pin "1"
+			(uuid "1fbc2c5d-6fc4-472a-9c7b-152bdbe856bf")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0dd4d54-6c64-432f-a2c8-45bacde966e5")
+		(property "Reference" "R41"
+			(at 44.45 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d3e83ee-3243-4424-804a-c44a350b1787")
+		)
+		(pin "1"
+			(uuid "9cc8e68c-b892-439b-a89d-8ddeec77be7f")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2559328-d375-4eff-bbe3-5dcb9e63f943")
+		(property "Reference" "R4"
+			(at 74.93 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5415c4d5-8022-4ea8-8e99-4f8b124486e8")
+		)
+		(pin "1"
+			(uuid "c3c5a2b1-b0d7-441d-8668-e770056a6c58")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56323cf-c51c-476d-99c3-d804f7270da7")
+		(property "Reference" "R83"
+			(at 64.77 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9033b816-1247-43e2-9918-f189046a1cc6")
+		)
+		(pin "1"
+			(uuid "329aca19-e8c9-4f34-baac-f83010d16be0")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5c78730-43ee-467a-907d-4b5679806d00")
+		(property "Reference" "R107"
+			(at 105.41 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81c33e99-6c78-46fc-88be-f227704323b4")
+		)
+		(pin "1"
+			(uuid "77be0295-c771-49c7-bc2d-12ae9e3fbefe")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7cecc76-5b10-43f0-a17a-837bf6b87692")
+		(property "Reference" "R94"
+			(at 74.93 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53746c14-2c14-4c34-8921-fe3503401fd8")
+		)
+		(pin "1"
+			(uuid "a0f5a6fc-3368-4b53-9e64-3dc628deaa9b")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f474c4-dc52-41c0-b4cf-a6651191bb30")
+		(property "Reference" "R105"
+			(at 85.09 159.9395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 85.09 162.3638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3283f200-3dc4-42d0-8632-e6d135e265b6")
+		)
+		(pin "1"
+			(uuid "e76f3f98-5e4b-49ec-92b8-87ab4e2095c8")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbfbae87-792b-4443-a001-4841ba570f6e")
+		(property "Reference" "R14"
+			(at 74.93 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 74.93 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81584b9a-c7fc-46ce-ad64-655c27a988ab")
+		)
+		(pin "1"
+			(uuid "ba1693fb-c6c7-4da2-85c3-43606b6ba4bc")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7f6509-00bd-449f-b031-c5f28ca3153f")
+		(property "Reference" "R86"
+			(at 95.25 139.6195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 142.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "986d43f3-aa89-48dc-b125-0fddb130d1ca")
+		)
+		(pin "1"
+			(uuid "86c107f1-7c28-4f43-a91c-67854fdd7290")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3205ff3-a563-4f70-9fd9-ca90f716c304")
+		(property "Reference" "R96"
+			(at 95.25 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35f735f0-2d48-4193-8f5d-bb6af5b5f1e4")
+		)
+		(pin "1"
+			(uuid "f46f7d09-d814-4c85-bda1-6fdc5d500d12")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4457d49-3b58-4342-80d8-59c2ecd0b43b")
+		(property "Reference" "R7"
+			(at 105.41 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc0b4dbe-7db4-4803-9ba8-4c7f7379c925")
+		)
+		(pin "1"
+			(uuid "260784f2-7f13-451d-911d-fabe9d4a8d2e")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d53a14f3-2d69-44f7-899b-28ecbb58d18e")
+		(property "Reference" "R80"
+			(at 135.89 129.4595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 131.8838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98608690-7606-41af-be55-a1bfb8b3e75d")
+		)
+		(pin "1"
+			(uuid "73fc6048-667f-4302-8b88-7da6d6e9d35f")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d963dc4a-1e96-4cca-b0a8-c47bc3dbb2e6")
+		(property "Reference" "R99"
+			(at 125.73 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31c959da-43a7-480b-a6fb-83dde2ea50d4")
+		)
+		(pin "1"
+			(uuid "1c2a74f8-025f-48af-804c-a8edffe95853")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da3fe66e-1679-4ae7-b8a1-a8abf793d138")
+		(property "Reference" "R18"
+			(at 115.57 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "128ee59d-18ea-43b3-a682-f198b0d3405e")
+		)
+		(pin "1"
+			(uuid "4f1e5333-94d9-4550-8a79-fa90ed373bec")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de39623f-0ada-476d-a4b2-e9221fe5289c")
+		(property "Reference" "R46"
+			(at 95.25 98.9795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 95.25 101.4038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e732a37-3ae7-4b58-8052-432c24145138")
+		)
+		(pin "1"
+			(uuid "4f548515-23bd-46cc-aa82-491afdfe0783")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0750458-107a-4e78-b350-27ec3981c876")
+		(property "Reference" "R11"
+			(at 44.45 68.4995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 70.9238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "269f4220-ccf1-4b41-8e02-0ef998f72381")
+		)
+		(pin "1"
+			(uuid "0250645b-5abb-4e4c-8817-653a31bdfe8e")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e193f5da-bef3-43a2-9ec9-2e7cb1c70461")
+		(property "Reference" "R67"
+			(at 105.41 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.41 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.41 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed3bd0f3-460c-4edc-b193-1d2629edce3d")
+		)
+		(pin "1"
+			(uuid "8d8fea9e-fb88-4b83-a532-09867d898e98")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2dc476c-bbee-4b1c-a6ad-6ca4dd6d21e9")
+		(property "Reference" "R33"
+			(at 64.77 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 64.77 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c4002e4-20e5-43b8-9b9d-0584916a7ea3")
+		)
+		(pin "1"
+			(uuid "03be9ab9-9970-4be4-ba13-da44ce590b33")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f17653ff-a21e-4762-a5e0-5ae55023d64b")
+		(property "Reference" "R8"
+			(at 115.57 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 115.57 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b18c2a52-453f-4b57-b9db-7a019993352b")
+		)
+		(pin "1"
+			(uuid "69e3d42b-23c5-4ea7-93bf-c92c8e7c362f")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2688d98-39d9-4e8f-8512-33b6273e20b2")
+		(property "Reference" "R1"
+			(at 44.45 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 44.45 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.45 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "022def2d-2ec0-4250-8a95-a33ee828d212")
+		)
+		(pin "1"
+			(uuid "8dea25af-e698-4c45-9d62-553950a36334")
+		)
+		(instances
+			(project ""
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8db266c-792c-43ee-a500-b5ee90d29780")
+		(property "Reference" "R69"
+			(at 125.73 119.2995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 125.73 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.73 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0160fbe2-5cc6-4722-86ce-383adde31ad4")
+		)
+		(pin "1"
+			(uuid "8e3d4efa-ea95-46d4-b317-a78700607ac8")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb211422-5335-4b4c-a1ba-af80a2ca27be")
+		(property "Reference" "R100"
+			(at 135.89 149.7795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 135.89 152.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04a46fb5-3c73-45fc-b273-b85355fbc984")
+		)
+		(pin "1"
+			(uuid "b22b86f2-386b-419d-957c-4d992f43d56f")
+		)
+		(instances
+			(project "vyhrivani_sekundar"
+				(path "/57d3fc5e-27cc-4c34-82c6-f09d8cb581da"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

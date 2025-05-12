@@ -495,6 +495,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -594,7 +595,7 @@
   "sheets": [
     [
       "be2fda2f-48d5-4d7e-8dd3-3a14b8502c7d",
-      "Hlavní"
+      "Root"
     ],
     [
       "5bdbf1ee-4728-4074-8f39-27e7732473a0",
