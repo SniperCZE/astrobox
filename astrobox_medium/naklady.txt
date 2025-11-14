@@ -1,0 +1,17 @@
+PCB jako jeden kus:
+- $65 PCB
+- $15 Stencil
+- $54 Shipping
+
+PCB jako vice kusu:
+Moduly rizeni PWM:
+- $XX PCB
+- $XX Stencil
+
+Modul non-pwm vystupu:
+- $XX PCB
+- $XX Stencil
+
+Modul spinaci:
+- $XX PCB
+- $XX Stencil
