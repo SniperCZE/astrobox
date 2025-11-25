@@ -1,94 +1,214 @@
 /**
  *
  * Ovladani napajeciho modulu Astroboxu.
- * 
- * Procesor napajecího modulu Astroboxu má za úkol 
- * spustit napájení do dalších částí a zároveň přes
- * modul DHT11 hlídat vnitřní prostředí - Rh a T.
- * Pokud hodnoty teploty nebo Rh dosáhnou limitních
- * hodnot, spustí přes PWM řízení větráku.
- * Procesor se chová jako I2C slave a je možné z něj
- * vyčíst informace o aktuální T a Rh.
  *
- * Konfigurace pinů:
- *         ______
- * PB5 - 1 |    | 8 - VCC
- * PB3 - 2 |    | 7 - PB2
- * PB4 - 3 |    | 6 - PB1
- * GND - 4 |    | 5 - PB0
- *         ------
- * 
- * VCC, GND = Napájení
- * PB0 - I2C SDA
- * PB1 - Aktivace napájení v celém obvodu
- * PB2 - I2C SCL
- * PB3 - Signalizace přiliš vysoké Rh
- * PB4 - PWM ovládání větráčku
- * PB5 - Reset / Data z DHT11
+ * Funkce:
+ * - Cteni potenciometru na PA0 (ADC)
+ * - PWM vystup na PB3 (Timer0)
+ * - Ovladani vystupu pomoci PB0 (PWM enable) a PB1 (Output enable)
+ * - Zobrazeni % (0-99) na 2x 7-seg displeji (PORTA - desitky, PORTD - jednotky)
  *
  * @author: Ondrej Flidr <ondrej.flidr@seznam.cz>
  * @version: 0.1
- * @date: 26/05/2024
+ * @date: 21/11/2025
  *
  */
 
-#define F_CPU 1000000 // frekvence CPU na 1MHz (default, nepouzivam krystal)
-#define I2C_ADDRESS 0x51 // I2C adresa na ktere posloucham
-#define WANT_RELHUM 0x1 // Master pozaduje udaje o vlhkosti
-#define WANT_TEMPER 0x2 // Master pozaduje udaje o teplote
-#define DHT_TYPE DHT11 // Typ DHT senzoru
-#define DHT_PIN 5 // Pin DHT senzoru
+#ifndef F_CPU
+#define F_CPU 1000000UL // 1 MHz
+#endif
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include <avr/interrupt.h>
-#include <TinyWireS.h>
-#include <TinyDHT.h>
 
-int8_t requestType=0;
-int8_t humidity;
-int16_t temperature;
+// Definice pinu
+#define PIN_PWM_ENABLE  PB0
+#define PIN_OUTPUT_EN   PB1
+#define PIN_PWM_OUT     PB3
 
-void i2c_request(void)
-{
-  if (requestType == WANT_RELHUM) {
-    TinyWireS.send(0x58);
-  } else if (requestType == WANT_TEMPER) {
-    TinyWireS.send(0x47);
-  }
+// Makra pro cteni vstupu
+#define IS_PWM_ENABLE_LOW()   bit_is_clear(PINB, PIN_PWM_ENABLE)
+#define IS_PWM_ENABLE_HIGH()  bit_is_set(PINB, PIN_PWM_ENABLE)
+#define IS_OUTPUT_EN_LOW()    bit_is_clear(PINB, PIN_OUTPUT_EN)
+#define IS_OUTPUT_EN_HIGH()   bit_is_set(PINB, PIN_OUTPUT_EN)
+
+/**
+ * Mapovani segmentu na piny
+ * Standardni 7-seg:      A, B, C, D, E, F, G
+ * Index bitu (standard): 0, 1, 2, 3, 4, 5, 6
+ *
+ * Desitky (PORTA):
+ * A->PA5, B->PA4, C->PA1, D->PA2, E->PA3, F->PA7, G->PA6
+ *
+ * Jednotky (PORTD):
+ * A->PD3, B->PD5, C->PD1, D->PD2, E->PD4, F->PD6, G->PD7
+ */
+
+// Standardni definice cislic 0-9 (abcdefg)
+// 0=0x3F, 1=0x06, 2=0x5B, 3=0x4F, 4=0x66, 5=0x6D, 6=0x7D, 7=0x07, 8=0x7F, 9=0x6F
+const uint8_t digits_standard[] = {
+    0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F
+};
+
+// Prevodni tabulky (vypoctene rucne pro optimalizaci)
+// PORTA (Tens) - PA0 je input (ADC), takze maskujeme jen bity 1-7
+const uint8_t segment_map_tens[] = {
+    // 0: ABCDEF -> 5,4,1,2,3,7 -> 0b10111110 = 0xBE
+    0xBE,
+    // 1: BC -> 4,1 -> 0b00010010 = 0x12
+    0x12,
+    // 2: ABDEG -> 5,4,2,3,6 -> 0b01111100 = 0x7C
+    0x7C,
+    // 3: ABCDG -> 5,4,1,2,6 -> 0b01110110 = 0x76
+    0x76,
+    // 4: BCFG -> 4,1,7,6 -> 0b11010010 = 0xD2
+    0xD2,
+    // 5: ACDFG -> 5,1,2,7,6 -> 0b11100110 = 0xE6
+    0xE6,
+    // 6: ACDEFG -> 5,1,2,3,7,6 -> 0b11101110 = 0xEE
+    0xEE,
+    // 7: ABC -> 5,4,1 -> 0b00110010 = 0x32
+    0x32,
+    // 8: ABCDEFG -> vse krome 0 -> 0b11111110 = 0xFE
+    0xFE,
+    // 9: ABCDFG -> 5,4,1,2,7,6 -> 0b11110110 = 0xF6
+    0xF6
+};
+
+// PORTD (Units) - PD0 nepripojen
+const uint8_t segment_map_units[] = {
+    // 0: ABCDEF -> 3,5,1,2,4,6 -> 0b01111110 = 0x7E
+    0x7E,
+    // 1: BC -> 5,1 -> 0b00100010 = 0x22
+    0x22,
+    // 2: ABDEG -> 3,5,2,4,7 -> 0b10111100 = 0xBC
+    0xBC,
+    // 3: ABCDG -> 3,5,1,2,7 -> 0b10101110 = 0xAE
+    0xAE,
+    // 4: BCFG -> 5,1,6,7 -> 0b11100010 = 0xE2
+    0xE2,
+    // 5: ACDFG -> 3,1,2,6,7 -> 0b11001110 = 0xCE
+    0xCE,
+    // 6: ACDEFG -> 3,1,2,4,6,7 -> 0b11011110 = 0xDE
+    0xDE,
+    // 7: ABC -> 3,5,1 -> 0b00101010 = 0x2A
+    0x2A,
+    // 8: ABCDEFG -> vse krome 0 -> 0b11111110 = 0xFE
+    0xFE,
+    // 9: ABCDFG -> 3,5,1,2,6,7 -> 0b11101110 = 0xEE
+    0xEE
+};
+
+void adc_init() {
+    // ADMUX: REFS0=0, REFS1=0 (AREF, Internal Vref turned off)
+    //        MUX=00000 (ADC0/PA0)
+    ADMUX = 0x00;
+
+    // ADCSRA: ADEN=1 (Enable), ADPS=011 (Prescaler 8 -> 1MHz/8 = 125kHz)
+    ADCSRA = (1 << ADEN) | (1 << ADPS1) | (1 << ADPS0);
 }
 
-void i2c_receive(uint8_t data)
-{
-  requestType = data;
+uint16_t adc_read() {
+    // Start conversion
+    ADCSRA |= (1 << ADSC);
+    // Wait for conversion to complete
+    while (ADCSRA & (1 << ADSC));
+    return ADC;
 }
 
-int main(void)
-{
+void timer0_init() {
+    // Fast PWM mode (WGM01 | WGM00)
+    // Non-inverting mode (COM01=1, COM00=0) - Clear OC0 on match, set at BOTTOM
+    // Clock: No prescaling (CS00=1) -> 1MHz PWM freq ~3.9kHz
+    // Inicialne odpojime OC0 od pinu (bude se ovladat v loopu)
+    TCCR0 = (1 << WGM00) | (1 << WGM01) | (1 << CS00);
+    DDRB |= (1 << PIN_PWM_OUT); // PB3 jako vystup
+}
 
-  DDRB = 0b00001010;
-  
-  // Po zapnuti eletkriny sepnu relatka
-  PORTB = 0b00000010;
-  _delay_ms(200);
+void update_display(uint8_t percent) {
+    if (percent > 99) percent = 99;
 
-  TinyWireS.begin(I2C_ADDRESS);
-  TinyWireS.onReceive(i2c_receive);
-  TinyWireS.onRequest(i2c_request);
+    uint8_t tens = percent / 10;
+    uint8_t units = percent % 10;
 
-  DHT dht(DHT_PIN, DHT_TYPE);
-  dht.begin();
+    // PORTA: Zachovat PA0 (ADC input), prepsat PA1-PA7
+    // PORTA input buffer (PIN A) by nemel byt ovlivnen, zapisujeme do LAT (PORT)
+    // Ale PA0 je input bez pullupu (reseno v DDR), takze zapis 0 na PA0 je OK.
+    // Pro jistotu cteme aktualni stav PORTA, zachovame bit 0 a zbytek pre napiseme.
+    uint8_t current_porta = PORTA & 0x01;
+    PORTA = current_porta | (segment_map_tens[tens] & 0xFE);
 
-  _delay_ms(500);
+    // PORTD: PD0 nepripojen, muzeme prepsat, ale slusnost je zachovat
+    uint8_t current_portd = PORTD & 0x01;
+    PORTD = current_portd | (segment_map_units[units] & 0xFE);
+}
 
+int main(void) {
+    // 1. Nastaveni portu
+    // PORTA: PA0 Input (ADC), PA1-PA7 Output (Display Tens)
+    DDRA = 0xFE; // 1111 1110
+    PORTA = 0x00; // Vse LOW
 
-	while(1) {
+    // PORTD: PD0 Input/Unused, PD1-PD7 Output (Display Units)
+    DDRD = 0xFE; // 1111 1110
+    PORTD = 0x00; // Vse LOW
 
-    int8_t h = dht.readHumidity();
-    int16_t t = dht.readTemperature();
+    // PORTB: PB0, PB1 Input, PB3 Output (PWM)
+    DDRB = (1 << PB3); // Ostatni jsou input (0)
+    // Volitelne: Zapnout pull-up na vstupech, pokud nejsou externi?
+    // Zadala se "Aktivace PWM", "Aktivace outputu", predpokladam aktivni logiku zvenku.
+    // Necham bez pull-upu (High-Z), pokud neni specifikovano jinak.
 
-    _delay_ms(500);
+    // 2. Inicializace periferii
+    adc_init();
+    timer0_init();
 
-	}
+    uint16_t adc_val = 0;
+    uint8_t percent = 0;
+    uint8_t pwm_val = 0;
 
+    while (1) {
+        // Cteni ADC
+        adc_val = adc_read(); // 0 - 1023
+
+        // Prepocet
+        // Procenta: (adc * 100) / 1024 ... zjednodusene adc/10.23
+        // Pro lepsi presnost: (adc * 100) >> 10 je cca spravne, ale max 102300/1024 = 99.9
+        percent = (adc_val * 100UL) / 1024UL;
+        if (percent > 99) percent = 99;
+
+        // PWM duty: mapovani 0-1023 na 0-255 -> deleno 4
+        pwm_val = adc_val >> 2;
+
+        // Aktualizace displeje
+        update_display(percent);
+
+        // Logika rizeni vystupu PB3
+        if (IS_OUTPUT_EN_LOW()) {
+            // PB1 == LOW -> Vystup vzdy LOW (Safety OFF)
+            // Odpojit Timer od pinu
+            TCCR0 &= ~(1 << COM01);
+            // Nastavit pin LOW
+            PORTB &= ~(1 << PIN_PWM_OUT);
+        }
+        else {
+            // PB1 == HIGH
+            if (IS_PWM_ENABLE_LOW()) {
+                // PB0 == LOW -> Vystup trvale HIGH (Full ON)
+                // Odpojit Timer od pinu
+                TCCR0 &= ~(1 << COM01);
+                // Nastavit pin HIGH
+                PORTB |= (1 << PIN_PWM_OUT);
+            }
+            else {
+                // PB1 == HIGH && PB0 == HIGH -> PWM Signal
+                // Nastavit stridu
+                OCR0 = pwm_val;
+                // Pripojit Timer k pinu (Clear OC0 on Compare Match, Set at BOTTOM)
+                TCCR0 |= (1 << COM01);
+            }
+        }
+
+        _delay_ms(10); // Maly delay pro stabilitu
+    }
 }
