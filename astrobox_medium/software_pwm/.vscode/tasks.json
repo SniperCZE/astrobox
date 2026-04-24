@@ -9,6 +9,39 @@
 			],
 			"group": "build",
 			"label": "PlatformIO: Build (attiny85)"
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: build",
+			"command": "build",
+			"targets": [
+				"[N/A - Select Kit]"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"detail": "CMake template build task"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: avr-gcc build active file",
+			"command": "/home/sniper/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-mmcu=atmega8535",
+				""
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /home/sniper/.platformio/packages/toolchain-atmelavr/bin/avr-gcc"
 		}
 	]
 }

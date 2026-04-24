@@ -41,7 +41,7 @@
  * A->PA5, B->PA4, C->PA1, D->PA2, E->PA3, F->PA7, G->PA6
  *
  * Jednotky (PORTD):
- * A->PD3, B->PD5, C->PD1, D->PD2, E->PD4, F->PD6, G->PD7
+ * A->PD7, B->PD6, C->PD4, D->PD2, E->PD1, F->PD5, G->PD3
  */
 
 // Standardni definice cislic 0-9 (abcdefg)
@@ -77,26 +77,26 @@ const uint8_t segment_map_tens[] = {
 
 // PORTD (Units) - PD0 nepripojen
 const uint8_t segment_map_units[] = {
-    // 0: ABCDEF -> 3,5,1,2,4,6 -> 0b01111110 = 0x7E
-    0x7E,
-    // 1: BC -> 5,1 -> 0b00100010 = 0x22
-    0x22,
-    // 2: ABDEG -> 3,5,2,4,7 -> 0b10111100 = 0xBC
-    0xBC,
-    // 3: ABCDG -> 3,5,1,2,7 -> 0b10101110 = 0xAE
-    0xAE,
-    // 4: BCFG -> 5,1,6,7 -> 0b11100010 = 0xE2
-    0xE2,
-    // 5: ACDFG -> 3,1,2,6,7 -> 0b11001110 = 0xCE
+    // 0: ABCDEF -> 7,6,5,4,2,1 -> 0b11110110 = 0xF6
+    0xF6,
+    // 1: BC -> 6,4 -> 0b01010000 = 0x50
+    0x50,
+    // 2: ABDEG -> 7,6,2,1,3 -> 0b11001110 = 0xCE
     0xCE,
-    // 6: ACDEFG -> 3,1,2,4,6,7 -> 0b11011110 = 0xDE
-    0xDE,
-    // 7: ABC -> 3,5,1 -> 0b00101010 = 0x2A
-    0x2A,
+    // 3: ABCDG -> 7,6,4,2,3 -> 0b11011100 = 0xDC
+    0xDC,
+    // 4: BCFG -> 6,4,5,3 -> 0b01111000 = 0x78
+    0x78,
+    // 5: ACDFG -> 7,4,2,5,3 -> 0b10111100 = 0xBC
+    0xBC,
+    // 6: ACDEFG -> 7,4,2,1,5,3 -> 0b10111110 = 0xBE
+    0xBE,
+    // 7: ABC -> 7,6,4 -> 0b11010000 = 0xD0
+    0xD0,
     // 8: ABCDEFG -> vse krome 0 -> 0b11111110 = 0xFE
     0xFE,
-    // 9: ABCDFG -> 3,5,1,2,6,7 -> 0b11101110 = 0xEE
-    0xEE
+    // 9: ABCDFG -> 7,6,4,2,5,3 -> 0b11111100 = 0xFC
+    0xFC
 };
 
 void adc_init() {
@@ -183,31 +183,31 @@ int main(void) {
         // Aktualizace displeje
         update_display(percent);
 
-        // Logika rizeni vystupu PB3
-        if (IS_OUTPUT_EN_LOW()) {
-            // PB1 == LOW -> Vystup vzdy LOW (Safety OFF)
-            // Odpojit Timer od pinu
-            TCCR0 &= ~(1 << COM01);
-            // Nastavit pin LOW
-            PORTB &= ~(1 << PIN_PWM_OUT);
-        }
-        else {
-            // PB1 == HIGH
-            if (IS_PWM_ENABLE_LOW()) {
-                // PB0 == LOW -> Vystup trvale HIGH (Full ON)
-                // Odpojit Timer od pinu
-                TCCR0 &= ~(1 << COM01);
-                // Nastavit pin HIGH
-                PORTB |= (1 << PIN_PWM_OUT);
-            }
-            else {
-                // PB1 == HIGH && PB0 == HIGH -> PWM Signal
-                // Nastavit stridu
-                OCR0 = pwm_val;
-                // Pripojit Timer k pinu (Clear OC0 on Compare Match, Set at BOTTOM)
-                TCCR0 |= (1 << COM01);
-            }
-        }
+        //// Logika rizeni vystupu PB3
+        //if (IS_OUTPUT_EN_LOW()) {
+        //    // PB1 == LOW -> Vystup vzdy LOW (Safety OFF)
+        //    // Odpojit Timer od pinu
+        //    TCCR0 &= ~(1 << COM01);
+        //    // Nastavit pin LOW
+        //    PORTB &= ~(1 << PIN_PWM_OUT);
+        //}
+        //else {
+        //    // PB1 == HIGH
+        //    if (IS_PWM_ENABLE_LOW()) {
+        //        // PB0 == LOW -> Vystup trvale HIGH (Full ON)
+        //        // Odpojit Timer od pinu
+        //        TCCR0 &= ~(1 << COM01);
+        //        // Nastavit pin HIGH
+        //        PORTB |= (1 << PIN_PWM_OUT);
+        //    }
+        //    else {
+        //        // PB1 == HIGH && PB0 == HIGH -> PWM Signal
+        //        // Nastavit stridu
+        //        OCR0 = pwm_val;
+        //        // Pripojit Timer k pinu (Clear OC0 on Compare Match, Set at BOTTOM)
+        //        TCCR0 |= (1 << COM01);
+        //    }
+        //}
 
         _delay_ms(10); // Maly delay pro stabilitu
     }
